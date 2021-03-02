@@ -1,3 +1,26 @@
+// ==UserScript==
+// @name         ShellShock Hack (Aimbot, Esp, Skins) V5
+// @version      5.2.4
+// @description  (Crackware) a mod for shellshockers.io with aimbot,esp, and unlock all skins
+// @author       CrypticX
+// @match        https://shellshock.io/*
+// @license      MIT
+// @grant        none
+// @copyright    2021, CrypticX (https://openuserjs.org/users/CrypticX)
+// @namespace https://greasyfork.org/users/727080
+// ==/UserScript==
+ 
+// Attention GreasyFork Users : Read about the external script in the script info tab!
+ 
+// Please do not remove this or the credit to the creators of this mod. This mod took a long time to make, if you reupload this leave the credits to the creators.
+/*
+  Created By : TDStuart
+  Remastered Version by : CrypticX
+    Cryo - Developer (Helped with a bunch of code)
+    Sadly L. - Developer (Helped with a bunch of code + made the esp)
+    Alt - Created the name (CrackWare)
+    JakeJeeperjinks - Admin and Helper with Youtube / Discord
+    
 /*VERSION:0.39*/
 
 
