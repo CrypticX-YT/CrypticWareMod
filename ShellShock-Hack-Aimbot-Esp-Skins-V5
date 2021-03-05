@@ -21,7 +21,7 @@
     Alt - Created the name (CrackWare)
     JakeJeeperjinks - Admin and Helper with Youtube / Discord
     
-/*VERSION:0.39*/
+/*VERSION:0.39.3*/
 
 
 window._utils = {};
@@ -55,7 +55,7 @@ window._utils.requirelib('https://unpkg.com/guify@0.12.0/lib/guify.min.js').then
 
 
 
-let codeVersion = "0.38";
+let codeVersion = "0.39.3";
 let gameVersion = window.version;
 if (codeVersion != gameVersion){
   alert(`CrackWare Code Version does not match ShellShockers current version.
