@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         ShellShock Hack (Aimbot, Esp, Skins) V5
-// @version      5.2.4
+// @version      5.2.7
 // @description  (Crackware) a mod for shellshockers.io with aimbot,esp, and unlock all skins
 // @author       CrypticX
 // @match        https://shellshock.io/*
-// @license      MIT
+// @license      LGPL-3.0-or-later
 // @grant        none
 // @copyright    2021, CrypticX (https://openuserjs.org/users/CrypticX)
 // @namespace https://greasyfork.org/users/727080
@@ -55,7 +55,7 @@ window._utils.requirelib('https://unpkg.com/guify@0.12.0/lib/guify.min.js').then
 
 
 
-let codeVersion = "0.39.3";
+let codeVersion = "0.39.4";
 let gameVersion = window.version;
 if (codeVersion != gameVersion){
   alert(`CrackWare Code Version does not match ShellShockers current version.
@@ -1132,7 +1132,7 @@ window.hack.loadGui = function(){
 
   
   window.hack.gui = new guify({
-    title: 'CrackWare 6.3.4',
+    title: 'CrackWare V5.2.7',
     theme: 'dark',
     align: 'right',
     width: 300,
@@ -1588,7 +1588,7 @@ window.hack.loadGui = function(){
   });
   
   
-  window.hack.modMenu.credit.container.innerHTML = `<p style="color:white;font-size: medium;margin-bottom: 0px;padding-left: 15px;">Created By : CrypticX</p><p style="color:white;font-size: medium;margin-top: 0px;padding-left: 15px;">Thanks to Cryo and Sadly for their help and code!</p>`
+  window.hack.modMenu.credit.container.innerHTML = `<p style="color:purple;font-size: medium;margin-bottom: 0px;padding-left: 15px;">Created By : TDStuart</p><p style="color:purple;font-size: medium;margin-top: 0px;padding-left: 15px;">Thanks to Cryo, Sadly, and CrypticX for their help and code!</p>`
 
   
   let titleTextElm = window.hack.gui.panel.panel.childNodes[0];
