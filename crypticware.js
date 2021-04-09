@@ -1819,13 +1819,6 @@ window.hack.modMenu.skins.onGotSkins = function(){
 }
  
  
-// ShellShockAdBlocker
-function addJQuery(callback) {
-    var script = document.createElement("script");
-    script.setAttribute("src", "//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js");
-    script.addEventListener('load', function() { callback(); }, false);
-    document.body.appendChild(script);
-}
  
 // ShellShockAdBlocker
 var areplacer = document.getElementsByClassName("areplacer");
